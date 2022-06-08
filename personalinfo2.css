@@ -91,7 +91,7 @@ ul{
     text-align: center;
     border-radius: 5%;
     letter-spacing: 1px;
-    color: white;
+    color: gray;
     position: relative;
     text-shadow: 1px 1px 1px black;
     font-size: 20px;
@@ -145,9 +145,9 @@ ul{
     width: 100%;
     border-radius: 5%;
 }
-
 .item1:hover, .item2:hover, .item3:hover, .item4:hover {
+    color: mediumaquamarine;
     opacity: 1;
     transition: opacity 500ms;
-    color: mediumaquamarine;
+    transition-delay: 0ms;
 }

@@ -85,7 +85,7 @@ ul{
     background: transparent;
     padding: 20px;
     border: white 1px solid;
-    color: white;
+    color: gray;
     text-align: center;
     border-radius: 5%;
     letter-spacing: 1px;
@@ -93,7 +93,7 @@ ul{
     font-size: 30px;
     transition: all .5s;
     padding: 80px;
-    opacity: 0.1;
+    opacity: .4;
     text-shadow: 1px 1px black;
 }
 .item1 h1{
@@ -101,4 +101,6 @@ ul{
 }
 .item1:hover{
     opacity: 1;
+    transition-delay: 0ms;
+    color: white;
 }
